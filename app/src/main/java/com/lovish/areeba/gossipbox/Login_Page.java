@@ -19,7 +19,7 @@ public class Login_Page extends AppCompatActivity {
 
     public void reg_button_submit()
     {
-        reg_button= (Button) findViewById(R.id.login_reg_button);
+        reg_button = (Button) findViewById(R.id.login_reg_button);
 
         reg_button.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -28,6 +28,7 @@ public class Login_Page extends AppCompatActivity {
                 startActivity(reg_intent);
             }
         });
+
     }
 
 }
